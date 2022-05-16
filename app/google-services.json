@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "831061096862",
+    "firebase_url": "https://srs-implimention-default-rtdb.firebaseio.com",
+    "project_id": "srs-implimention",
+    "storage_bucket": "srs-implimention.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831061096862:android:0c039f9f8259c08efebe8f",
+        "android_client_info": {
+          "package_name": "com.example.Splitbills_Nitc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831061096862-2nu5blhr6h0pv98k18eucplrn1u3irev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE7AfUi6mKHsvGOZVgoS6q2mrVAOKsBZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831061096862-2nu5blhr6h0pv98k18eucplrn1u3irev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831061096862:android:7361b70ecfeb5d7ffebe8f",
+        "android_client_info": {
+          "package_name": "com.example.splitbill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831061096862-2nu5blhr6h0pv98k18eucplrn1u3irev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE7AfUi6mKHsvGOZVgoS6q2mrVAOKsBZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831061096862-2nu5blhr6h0pv98k18eucplrn1u3irev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831061096862:android:1dad3e4e20f1302dfebe8f",
+        "android_client_info": {
+          "package_name": "com.example.srs_implimention"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831061096862-2nu5blhr6h0pv98k18eucplrn1u3irev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE7AfUi6mKHsvGOZVgoS6q2mrVAOKsBZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831061096862-2nu5blhr6h0pv98k18eucplrn1u3irev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

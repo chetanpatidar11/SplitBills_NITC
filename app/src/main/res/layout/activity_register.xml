@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@color/lightGray">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="231dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="96dp"
+        android:text="@string/create_new_account"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="230dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="41dp"
+        android:ems="10"
+        android:hint="Nitc  E-mail"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="233dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="111dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="158dp"
+        android:background="#E91E63"
+        android:text="sign up"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="18dp"
+        android:text="Already Registered? Log in here."
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="125dp"
+        android:ems="10"
+        android:hint="Name "
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

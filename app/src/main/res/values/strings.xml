@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Splitbills Nitc</string>
+
+    <string-array name="currencySymbols">
+        <item>INR-(₹)</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="head1">"Chetan Patidar "</string>
+    <string name="head2">Ankit Hammad</string>
+    <string name="head3">Amanpreet kaur</string>
+    <string name="headar1">Chetan Patidar</string>
+    <string name="create_new_account">Create new Account</string>
+    <string name="forget_password">forget_password</string>
+</resources>
